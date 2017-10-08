@@ -1,0 +1,145 @@
+@import 'grid';
+@import 'reset';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif !important;
+}
+$font-color-primary: grey;
+$font-color-secondary: white;
+$main-color: #0093D5;
+
+#border {
+  border: 1px solid black;
+}
+//Ozdobniki
+
+.top {
+  height: 15px;
+}
+
+.bottom {
+  height: 25px;
+}
+//Kolory
+
+.green {
+  background-color: #49B749;
+  height: inherit;
+}
+
+.purple {
+  background-color: #73449B;
+  height: inherit;
+}
+
+.blue {
+  background-color: #0093D5;
+  height: inherit;
+}
+
+.orange {
+  background-color: #FAA31A;
+  height: inherit;
+}
+
+.red {
+  background-color: #9B1C20;
+  height: inherit;
+}
+//Formatowanie tekstu
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: $font-color-secondary;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.spread {
+  height: 100px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-color {
+  color: $main-color;
+}
+
+.heading-row {
+  border-bottom: 3px solid $main-color;
+  margin-bottom: 15px;
+}
+
+.bottom-row {
+  border-top: 3px solid $main-color;
+}
+
+.text-box {
+  color: $font-color-primary;
+  font-size: 20px;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+
+  p {
+    margin-bottom: 15px;
+  }
+}
+
+.text {
+  color: $font-color-primary;
+  font-size: 20px;
+}
+
+.number-box {
+  background-color: $main-color;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.wrapper {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.img-box {
+  img {
+    border: 1px solid $main-color;
+    margin: 10px;
+  }
+}
